@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Aquafina Purified Water",
+    "brand": "Aquafina",
+    "capacity": "500ml",
+    "price": "0.99 USD",
+    "temperature": "cold",
+    "image": "https://example.com/aquafina_500ml.jpg",
+    "description": "Pure, crisp taste to keep you hydrated."
+  },
+  {
+    "id": 2,
+    "name": "Nestlé Pure Life",
+    "brand": "Nestlé",
+    "capacity": "1L",
+    "price": "1.49 USD",
+    "temperature": "cold",
+    "image": "https://example.com/nestle_1l.jpg",
+    "description": "Refreshing spring water with essential minerals."
+  },
+  {
+    "id": 3,
+    "name": "Dasani Purified Water",
+    "brand": "Dasani",
+    "capacity": "750ml",
+    "price": "1.25 USD",
+    "temperature": "cold",
+    "image": "https://example.com/dasani_750ml.jpg",
+    "description": "Enhanced with minerals for a clean, fresh taste."
+  },
+  {
+    "id": 4,
+    "name": "Evian Natural Spring Water",
+    "brand": "Evian",
+    "capacity": "1.5L",
+    "price": "2.99 USD",
+    "temperature": "cold",
+    "image": "https://example.com/evian_1.5l.jpg",
+    "description": "Naturally filtered through glacial rocks."
+  },
+  {
+    "id": 5,
+    "name": "Fiji Natural Artesian Water",
+    "brand": "Fiji",
+    "capacity": "500ml",
+    "price": "2.29 USD",
+    "temperature": "cold",
+    "image": "https://example.com/fiji_500ml.jpg",
+    "description": "Soft, smooth taste from an artesian aquifer."
+  },
+  {
+    "id": 6,
+    "name": "Smartwater Vapor Distilled",
+    "brand": "Smartwater",
+    "capacity": "1L",
+    "price": "2.49 USD",
+    "temperature": "both",
+    "image": "https://example.com/smartwater_1l.jpg",
+    "description": "Vapor distilled for purity, with added electrolytes."
+  },
+  {
+    "id": 7,
+    "name": "Voss Artesian Water",
+    "brand": "Voss",
+    "capacity": "800ml",
+    "price": "3.99 USD",
+    "temperature": "cold",
+    "image": "https://example.com/voss_800ml.jpg",
+    "description": "Premium artesian water from Norway."
+  },
+  {
+    "id": 8,
+    "name": "LifeWtr Purified Water",
+    "brand": "LifeWtr",
+    "capacity": "700ml",
+    "price": "1.89 USD",
+    "temperature": "cold",
+    "image": "https://example.com/lifewtr_700ml.jpg",
+    "description": "pH balanced with added electrolytes."
+  },
+  {
+    "id": 9,
+    "name": "Core Hydration Water",
+    "brand": "Core",
+    "capacity": "900ml",
+    "price": "2.79 USD",
+    "temperature": "cold",
+    "image": "https://example.com/core_900ml.jpg",
+    "description": "Ultra-purified water with a perfect pH balance."
+  },
+  {
+    "id": 10,
+    "name": "Herbal Hot Water",
+    "brand": "HerbalPure",
+    "capacity": "500ml",
+    "price": "3.49 USD",
+    "temperature": "hot",
+    "image": "https://example.com/herbal_hot_500ml.jpg",
+    "description": "Infused with herbal extracts for a soothing drink."
+  }
+]
