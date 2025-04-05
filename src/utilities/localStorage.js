@@ -2,12 +2,17 @@
 // get item from local storage
 const getItemFromLocalStorage = () => {
   const storeCart = localStorage.getItem('cart');
-  return storeCart ? JSON.parse(storeCart) : [];
+
+  if (storeCart) {
+    return JSON.parse(storeCart);
+  }
+  return [];
 }
 
 // save item to local storage
-const saveItemToLocalStorage = (cart) => {
-  localStorage.setItem('cart', JSON.stringify(cart));
+const saveItemToLocalStorage = (id) => {
+  localStorage.setItem('cart', JSON.stringify(id));
+
 }
 
 // add to cart
@@ -21,9 +26,9 @@ const addItemToLocalStorage = (id) => {
 // remove item
 
 const removeItemFromLocalStorage = (id) => {
-  const cart = getItemFromLocalStorage();
-  const remaining = cart.filter(storeId => storeId.id !== id);
-  saveItemToLocalStorage(remaining);
+  const cartItem = getItemFromLocalStorage();
+  const remainingCart = cartItem.filter(storeId => storeId.id !== id);
+  saveItemToLocalStorage(remainingCart);
 }
 
 export {
